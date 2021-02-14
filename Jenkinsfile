@@ -6,7 +6,6 @@ pipeline {
     stage("build"){
       steps {
         echo 'building the application...'
-        javac HelloWorld.java
       }
     }
     
